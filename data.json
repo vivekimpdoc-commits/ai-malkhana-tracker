@@ -1,0 +1,336 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "username": "admin",
+      "password": "$2b$10$QvMfyQGoYAmM70MDVH7gF.eN481qbqEKI4dj7vAjxwMlrMvgIONma",
+      "role": "admin",
+      "name": "Admin Officer"
+    },
+    {
+      "id": "2",
+      "username": "staff",
+      "password": "$2b$10$QvMfyQGoYAmM70MDVH7gF.tw7fTJ9mmeHMXiX4PBlMBHn0YGnkYx.",
+      "role": "staff",
+      "name": "Malkhana Staff"
+    }
+  ],
+  "items": [
+    {
+      "id": "ITEM-1711600000001",
+      "caseNumber": "CASE-2024-001",
+      "firNumber": "FIR-45/2024",
+      "itemName": "Samsung Galaxy S21",
+      "description": "Black color, cracked screen, seized from suspect pocket.",
+      "dateReceived": "2024-01-15",
+      "officerName": "Inspector Sharma",
+      "location": {
+        "room": "A1",
+        "rack": "R-10"
+      },
+      "status": "जमा",
+      "createdAt": "2024-01-15T10:00:00Z",
+      "updatedAt": "2026-04-26T04:28:59.051Z"
+    },
+    {
+      "id": "ITEM-1711600000002",
+      "caseNumber": "CASE-2024-002",
+      "firNumber": "FIR-12/2024",
+      "itemName": "Hero Splendor Plus",
+      "description": "Reg No: DL-3S-1234, Silver color, found abandoned.",
+      "dateReceived": "2024-01-20",
+      "officerName": "SI Verma",
+      "location": {
+        "room": "Parking",
+        "rack": "P-01"
+      },
+      "status": "जमा",
+      "createdAt": "2024-01-20T11:30:00Z"
+    },
+    {
+      "id": "ITEM-1711600000003",
+      "caseNumber": "CASE-2024-003",
+      "firNumber": "FIR-88/2024",
+      "itemName": "Cash (INR 50,000)",
+      "description": "500 denomination notes, seized during raid.",
+      "dateReceived": "2024-02-05",
+      "officerName": "Inspector Gupta",
+      "location": {
+        "room": "Safe",
+        "rack": "S-05"
+      },
+      "status": "जमा",
+      "createdAt": "2024-02-05T09:15:00Z"
+    },
+    {
+      "id": "ITEM-1711600000004",
+      "caseNumber": "CASE-2024-004",
+      "firNumber": "FIR-102/2024",
+      "itemName": "Gold Chain",
+      "description": "Approx 20g, yellow metal, recovered from thief.",
+      "dateReceived": "2024-02-10",
+      "officerName": "SI Khan",
+      "location": {
+        "room": "Safe",
+        "rack": "S-02"
+      },
+      "status": "रिलीज़",
+      "createdAt": "2024-02-10T14:45:00Z"
+    },
+    {
+      "id": "ITEM-1711600000005",
+      "caseNumber": "CASE-2024-005",
+      "firNumber": "FIR-56/2024",
+      "itemName": "Dell Latitude Laptop",
+      "description": "Grey color, with charger, seized for cyber investigation.",
+      "dateReceived": "2024-02-15",
+      "officerName": "Inspector Mishra",
+      "location": {
+        "room": "B2",
+        "rack": "R-05"
+      },
+      "status": "जमा",
+      "createdAt": "2024-02-15T16:20:00Z"
+    },
+    {
+      "id": "ITEM-1711600000006",
+      "caseNumber": "CASE-2024-006",
+      "firNumber": "FIR-22/2024",
+      "itemName": "Kitchen Knife",
+      "description": "10-inch blade, wooden handle, blood stains present.",
+      "dateReceived": "2024-02-18",
+      "officerName": "SI Yadav",
+      "location": {
+        "room": "Evidence Room",
+        "rack": "E-01"
+      },
+      "status": "जमा",
+      "createdAt": "2024-02-18T08:10:00Z"
+    },
+    {
+      "id": "ITEM-1711600000007",
+      "caseNumber": "CASE-2024-007",
+      "firNumber": "FIR-150/2024",
+      "itemName": "Property Documents",
+      "description": "Original sale deed, 4 pages, related to land dispute.",
+      "dateReceived": "2024-02-22",
+      "officerName": "Inspector Singh",
+      "location": {
+        "room": "Record Room",
+        "rack": "F-12"
+      },
+      "status": "जमा",
+      "createdAt": "2024-02-22T12:00:00Z"
+    },
+    {
+      "id": "ITEM-1711600000008",
+      "caseNumber": "CASE-2024-008",
+      "firNumber": "FIR-30/2024",
+      "itemName": "Maruti Swift",
+      "description": "White color, Reg No: HR-26-AB-5678, involved in accident.",
+      "dateReceived": "2024-03-01",
+      "officerName": "SI Chaudhary",
+      "location": {
+        "room": "Parking",
+        "rack": "P-05"
+      },
+      "status": "जमा",
+      "createdAt": "2024-03-01T10:30:00Z"
+    },
+    {
+      "id": "ITEM-1711600000009",
+      "caseNumber": "CASE-2024-009",
+      "firNumber": "FIR-201/2024",
+      "itemName": "Alcohol Bottles (Seized)",
+      "description": "12 bottles of IMFL, seized from illegal shop.",
+      "dateReceived": "2024-03-05",
+      "officerName": "Inspector Reddy",
+      "location": {
+        "room": "Storage C",
+        "rack": "R-20"
+      },
+      "status": "नष्ट",
+      "createdAt": "2024-03-05T15:40:00Z"
+    },
+    {
+      "id": "ITEM-1711600000010",
+      "caseNumber": "CASE-2024-010",
+      "firNumber": "FIR-44/2024",
+      "itemName": "Illegal Substances (Simulated)",
+      "description": "500g white powder, seized for testing.",
+      "dateReceived": "2024-03-08",
+      "officerName": "SI Patil",
+      "location": {
+        "room": "Lab",
+        "rack": "L-02"
+      },
+      "status": "जमा",
+      "createdAt": "2024-03-08T09:50:00Z"
+    },
+    {
+      "id": "ITEM-1711600000011",
+      "caseNumber": "CASE-2024-011",
+      "firNumber": "FIR-11/2024",
+      "itemName": "Atlas Bicycle",
+      "description": "Blue color, old model, recovered from theft case.",
+      "dateReceived": "2024-03-10",
+      "officerName": "SI Joshi",
+      "location": {
+        "room": "Storage B",
+        "rack": "R-15"
+      },
+      "status": "जमा",
+      "createdAt": "2024-03-10T11:10:00Z"
+    },
+    {
+      "id": "ITEM-1711600000012",
+      "caseNumber": "CASE-2024-012",
+      "firNumber": "FIR-67/2024",
+      "itemName": "Titan Watch",
+      "description": "Golden dial, brown strap, found at crime scene.",
+      "dateReceived": "2024-03-12",
+      "officerName": "Inspector Das",
+      "location": {
+        "room": "Safe",
+        "rack": "S-08"
+      },
+      "status": "जमा",
+      "createdAt": "2024-03-12T14:20:00Z"
+    },
+    {
+      "id": "ITEM-1711600000013",
+      "caseNumber": "CASE-2024-013",
+      "firNumber": "FIR-19/2024",
+      "itemName": "Leather Wallet",
+      "description": "Brown color, containing ID cards and some coins.",
+      "dateReceived": "2024-03-14",
+      "officerName": "SI Nair",
+      "location": {
+        "room": "A1",
+        "rack": "R-12"
+      },
+      "status": "जमा",
+      "createdAt": "2024-03-14T10:00:00Z"
+    },
+    {
+      "id": "ITEM-1711600000014",
+      "caseNumber": "CASE-2024-014",
+      "firNumber": "FIR-55/2024",
+      "itemName": "Bunch of Keys",
+      "description": "5 keys in a ring, found near broken lock.",
+      "dateReceived": "2024-03-16",
+      "officerName": "Inspector Kumar",
+      "location": {
+        "room": "A1",
+        "rack": "R-13"
+      },
+      "status": "जमा",
+      "createdAt": "2024-03-16T16:30:00Z"
+    },
+    {
+      "id": "ITEM-1711600000015",
+      "caseNumber": "CASE-2024-015",
+      "firNumber": "FIR-99/2024",
+      "itemName": "Black Backpack",
+      "description": "Skybag brand, containing clothes and a water bottle.",
+      "dateReceived": "2024-03-18",
+      "officerName": "SI Gill",
+      "location": {
+        "room": "B2",
+        "rack": "R-08"
+      },
+      "status": "जमा",
+      "createdAt": "2024-03-18T13:45:00Z"
+    },
+    {
+      "id": "ITEM-1711600000016",
+      "caseNumber": "CASE-2024-016",
+      "firNumber": "FIR-123/2024",
+      "itemName": "Iron Rod",
+      "description": "3 feet long, rusted, used in assault case.",
+      "dateReceived": "2024-03-20",
+      "officerName": "Inspector Rao",
+      "location": {
+        "room": "Evidence Room",
+        "rack": "E-05"
+      },
+      "status": "जमा",
+      "createdAt": "2024-03-20T08:55:00Z"
+    },
+    {
+      "id": "ITEM-1711600000017",
+      "caseNumber": "CASE-2024-017",
+      "firNumber": "FIR-40/2024",
+      "itemName": "iPad Pro",
+      "description": "Silver color, 11 inch, recovered from stolen property.",
+      "dateReceived": "2024-03-22",
+      "officerName": "SI Mehta",
+      "location": {
+        "room": "B2",
+        "rack": "R-06"
+      },
+      "status": "जमा",
+      "createdAt": "2024-03-22T11:25:00Z"
+    },
+    {
+      "id": "ITEM-1711600000018",
+      "caseNumber": "CASE-2024-018",
+      "firNumber": "FIR-77/2024",
+      "itemName": "Canon Camera",
+      "description": "Model EOS 1500D, with 18-55mm lens.",
+      "dateReceived": "2024-03-24",
+      "officerName": "Inspector Bose",
+      "location": {
+        "room": "B2",
+        "rack": "R-07"
+      },
+      "status": "जमा",
+      "createdAt": "2024-03-24T15:10:00Z"
+    },
+    {
+      "id": "ITEM-1711600000019",
+      "caseNumber": "CASE-2024-019",
+      "firNumber": "FIR-81/2024",
+      "itemName": "Pair of Nike Shoes",
+      "description": "White color, size 9, found at scene of burglary.",
+      "dateReceived": "2024-03-26",
+      "officerName": "SI Singh",
+      "location": {
+        "room": "A1",
+        "rack": "R-14"
+      },
+      "status": "जमा",
+      "createdAt": "2024-03-26T10:40:00Z"
+    },
+    {
+      "id": "ITEM-1711600000020",
+      "caseNumber": "CASE-2024-020",
+      "firNumber": "FIR-10/2024",
+      "itemName": "Steelbird Helmet",
+      "description": "Black color, full face, recovered with stolen bike.",
+      "dateReceived": "2024-03-27",
+      "officerName": "Inspector Ali",
+      "location": {
+        "room": "Storage B",
+        "rack": "R-16"
+      },
+      "status": "जमा",
+      "createdAt": "2024-03-27T17:00:00Z"
+    },
+    {
+      "caseNumber": "d",
+      "firNumber": "d",
+      "itemName": "d",
+      "description": "d",
+      "dateReceived": "2026-04-26",
+      "officerName": "df",
+      "location": {
+        "room": "d",
+        "rack": "d"
+      },
+      "status": "जमा",
+      "id": "ITEM-1777178435004",
+      "createdAt": "2026-04-26T04:40:35.004Z"
+    }
+  ]
+}
