@@ -142,11 +142,13 @@ async function startServer() {
     const url = `http://localhost:${PORT}`;
     console.log(`Server running on ${url}`);
     
-    // Automatically open the browser
-    const startCmd = process.platform === 'win32' ? 'start' : process.platform === 'darwin' ? 'open' : 'xdg-open';
-    import('child_process').then(({ exec }) => {
-      exec(`${startCmd} ${url}`);
-    });
+    // Automatically open the browser only in development mode
+    if (process.env.NODE_ENV !== 'production') {
+      const startCmd = process.platform === 'win32' ? 'start' : process.platform === 'darwin' ? 'open' : 'xdg-open';
+      import('child_process').then(({ exec }) => {
+        exec(`${startCmd} ${url}`);
+      });
+    }
   });
 }
 
