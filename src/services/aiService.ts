@@ -20,7 +20,7 @@ export async function analyzeInventory(items: any[], lang: 'hi' | 'en' = 'hi') {
 
   try {
     const response = await ai.models.generateContent({
-      model: "gemini-3-flash-preview",
+      model: "gemini-2.0-flash",
       contents: prompt,
       config: {
         responseMimeType: "application/json",
@@ -53,7 +53,7 @@ export function createChatSession(items: any[], lang: 'hi' | 'en' = 'hi') {
   Be professional and helpful.`;
 
   return ai.chats.create({
-    model: "gemini-3-flash-preview",
+    model: "gemini-2.0-flash",
     config: {
       systemInstruction,
     },
